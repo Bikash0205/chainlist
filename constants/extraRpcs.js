@@ -3063,6 +3063,7 @@ export const extraRpcs = {
         "https://rpc.evmos.testnet.node75.org",
 	      "https://rpc-evm.testnet.evmos.dragonstake.io",
         "https://evmos-testnet-rpc.stake-town.com",
+	    "https://evmos-testnet.lava.build/lava-referer-0c34208d-57a1-42fd-8f45-181b2d95d104",
         "https://evmos-testnet-jsonrpc.stake-town.com",
         "https://api.evmos-test.theamsolutions.info",
         "https://jsonrpc-t.evmos.nodestake.top",
@@ -3082,6 +3083,11 @@ export const extraRpcs = {
         tracking: "yes",
         trackingDetails: privacyStatement.lava,
       },
+	    {
+		    url: "https://evmos.lava.build/lava-referer-0c34208d-57a1-42fd-8f45-181b2d95d104"
+			    tracking: "yes"
+			    trackingDetails: privacyStatement.lava
+	    },
       {
         url: "https://evmos-mainnet-jsonrpc.autostake.com",
         tracking: "limited",
